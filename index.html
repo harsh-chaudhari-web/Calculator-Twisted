@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator By Harsh Chaudhari</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="A simple and stylish calculator built by Harsh Chaudhari, a Mumbai-based Frontend Developer. Proficient in HTML, CSS, JavaScript, Git, and WordPress.">
+    <meta name="keywords" content="Calculator, Harsh Chaudhari, Frontend Developer, HTML, CSS, JavaScript, Web Development, Vasai, Virar, Mumbai, Palghar">
+    <meta name="author" content="Harsh Chaudhari">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Calculator By Harsh Chaudhari">
+    <meta property="og:description" content="A simple and stylish calculator built by Harsh Chaudhari, a Mumbai-based Frontend Developer.">
+    <meta property="og:image" content="Harsh Chaudhari-anime.jpg">
+    <meta property="og:url" content="https://calculator-harshchaudhari.netlify.app">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Calculator By Harsh Chaudhari">
+    <meta name="twitter:description" content="A simple and stylish calculator built by Harsh Chaudhari, a Mumbai-based Frontend Developer.">
+    <meta name="twitter:image" content="Harsh Chaudhari-anime.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" href="Harsh Chaudhari-anime.jpg" type="image/jpeg">
+    <link rel="stylesheet" href="styles.css">
+    <!-- search con -->
+    <meta name="google-site-verification" content="tjnbclyfJb-NwJ89qIXv950vKCLWotaGkZoMMil8mlI" />
+</head>
+<body>
+    <a href="itheit.netlify.app" target="_blank" ><img src="ITHEIT logo tr-bg.png" alt="Harsh Chaudhari Logo" class="ITheit Web development Agency logo"></a>
+    <div class="calculator">
+        <input type="text" id="display" readonly>
+        <div class="button-container">
+            <button class="button clear" onclick="clearDisplay()">C</button>
+            <button class="button clear" onclick="deleteLast()">Del</button>
+            <button class="button operator" onclick="appendToDisplay('+')">+</button>
+            <button class="button operator" onclick="appendToDisplay('-')">-</button>
+            <button class="button operator" onclick="appendToDisplay('*')">*</button>
+            <button class="button operator" onclick="appendToDisplay('/')">/</button>
+            <button class="button operator" onclick="appendToDisplay('%')">%</button>
+            <button class="button equals" onclick="calculateResult()">=</button>
+            <button class="button number" onclick="appendToDisplay('1')">1</button>
+            <button class="button number" onclick="appendToDisplay('2')">2</button>
+            <button class="button number" onclick="appendToDisplay('3')">3</button>
+            <button class="button number" onclick="appendToDisplay('4')">4</button>
+            <button class="button number" onclick="appendToDisplay('5')">5</button>
+            <button class="button number" onclick="appendToDisplay('6')">6</button>
+            <button class="button number" onclick="appendToDisplay('7')">7</button>
+            <button class="button number" onclick="appendToDisplay('8')">8</button>
+            <button class="button number" onclick="appendToDisplay('9')">9</button>
+            <button class="button number" onclick="appendToDisplay('0')">0</button>
+            <button class="button number" onclick="appendToDisplay('.')">.</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
